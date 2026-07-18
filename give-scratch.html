@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Give Scratch Card</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Give Scratch Card</h1>
+
+<p>Search customer and assign a scratch card</p>
+
+<div class="card">
+
+<input
+type="text"
+id="searchMobile"
+placeholder="📱 Enter Customer Mobile">
+
+<button id="searchBtn">
+🔍 Search Customer
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Customer Details</h3>
+
+<p class="info"><b>Name:</b> <span id="name">-</span></p>
+
+<p class="info"><b>Customer ID:</b> <span id="customerId">-</span></p>
+
+<p class="info"><b>Current HR:</b> <span id="hrpoint">0</span></p>
+
+</div>
+
+<div class="card">
+
+<label><b>Reward Type</b></label>
+
+<select id="rewardType">
+
+<option value="HR">HR Points</option>
+
+</select>
+
+<label><b>Reward Value</b></label>
+
+<input
+type="number"
+id="rewardValue"
+placeholder="⭐ Example : 20">
+
+<label><b>Scratch Theme</b></label>
+
+<select id="theme">
+
+<option>Lucky Gold</option>
+
+<option>Diamond</option>
+
+<option>Festival</option>
+
+<option>Birthday</option>
+
+<option>Surprise Box</option>
+
+</select>
+
+<button id="saveBtn">
+🎁 Give Scratch Card
+</button>
+
+</div>
+
+<script type="module" src="Js/give-scratch.js"></script>
+
+</div>
+
+</body>
+</html>

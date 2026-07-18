@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Recharge</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add Recharge</h1>
+
+<p>Search customer and add recharge</p>
+
+<div class="card">
+
+<input
+type="text"
+id="searchMobile"
+placeholder="📱 Enter Customer Mobile">
+
+<button id="searchBtn">
+🔍 Search Customer
+</button>
+
+</div>
+
+<div class="card">
+
+<p class="info"><b>Name:</b> <span id="name">-</span></p>
+
+<p class="info"><b>Mobile:</b> <span id="mobile">-</span></p>
+
+<p class="info"><b>Current HR:</b> <span id="currentHR">-</span></p>
+
+</div>
+
+<div class="card">
+
+<input
+type="text"
+id="rechargeNumber"
+placeholder="📞 Recharge Number">
+
+<input
+type="number"
+id="amount"
+placeholder="💰 Recharge Amount">
+
+<input
+type="number"
+id="hrEarned"
+placeholder="⭐ HR Earned">
+
+<select id="paymentMode">
+
+<option>Cash</option>
+
+<option>Online</option>
+
+</select>
+
+<button id="saveRecharge">
+⚡ Save Recharge
+</button>
+
+</div>
+
+<script type="module" src="Js/add-recharge.js"></script>
+
+</div>
+
+</body>
+
+</html>

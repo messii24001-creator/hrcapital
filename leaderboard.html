@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Leaderboard</title>
+
+<link rel="stylesheet" href="css/leaderboard.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <button class="backBtn" onclick="history.back()">←</button>
+
+        <h1>🏆 Leaderboard</h1>
+
+        <p>Top HR Capital Members</p>
+
+    </div>
+    
+<h2 class="podiumTitle">🏆 Top 3 Champions</h2>
+
+    <div class="topCard">
+
+        <div class="medal gold">
+            🥇
+            <h3 id="firstName">-</h3>
+            <p id="firstHR">0 HR</p>
+        </div>
+
+        <div class="medal silver">
+            🥈
+            <h3 id="secondName">-</h3>
+            <p id="secondHR">0 HR</p>
+        </div>
+
+        <div class="medal bronze">
+            🥉
+            <h3 id="thirdName">-</h3>
+            <p id="thirdHR">0 HR</p>
+        </div>
+
+    </div>
+
+    <div id="leaderboardList"></div>
+
+</div>
+
+<script type="module" src="Js/leaderboard.js"></script>
+
+</body>
+</html>
